@@ -1,0 +1,66 @@
+/* small theme tweaks to go with Bootstrap */
+body { background: #f4f6f9; font-family: Inter, Arial, sans-serif; }
+#sidebar-wrapper { min-width: 220px; max-width: 260px; }
+#page-content-wrapper { min-height: 100vh; }
+.sidebar-heading { font-weight: 700; }
+.card-title { font-weight: 700; font-size: 1.6rem; }
+.list-group-item-dark.active { background: linear-gradient(90deg,#0d6efd,#0062cc); color: #fff; }
+.table thead th { background: #fbfcfd; }
+
+.top-header {
+    width: 100%;
+    background: #283790;  /* Dark royal blue */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.college-logo {
+    height: 175px;
+    width:175px;
+    object-fit: contain;
+}
+
+.college-title h1 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.college-title p {
+    font-size: 25px;
+    opacity: 0.85;
+    margin: 2px 0 0 0;
+}
+
+/* -------- Visit Button -------- */
+.visit-site-btn {
+    background: #e0e6ff;
+    color: #0f1b41;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.visit-site-btn:hover {
+    background: #fff;
+}
+
+#yearChart, #deptChart {
+    height: 350px !important;   /* or 400px – whatever you like */
+    width: 100%;
+}
